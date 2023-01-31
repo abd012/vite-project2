@@ -1,0 +1,79 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  border: 2px double;
+  border-radius: 50px;
+
+
+}
+body{
+ 
+  background-image: url(Compenents/gradient-dynamic-wavy-background_23-2149101398.webp);
+
+}
+.edit{
+  color: rgb(106, 255, 0);
+  background-color: chocolate;
+}
+
+.titer{
+  color:rgb(187, 255, 0);
+  font-family: 'Times New Roman', Times, serif;
+  border-bottom: double 1px chartreuse;
+  margin-bottom: 50px;
+}
+input{
+  font-size: 30px;
+  border-radius: 25px;
+}
+.btn{
+  border-radius: 24px;
+  margin-bottom: 15px;
+}
+.active{
+  font-size: 30px;
+  
+
+}
+.supp{
+  background-color: coral;
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.editt{
+  background-color: coral;
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+  color: chocolate;
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
